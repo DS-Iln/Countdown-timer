@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', () => {
     let timeLeft;
 
     // Дата, до которой будет вестись обратный отсчет
-    let countdownDate = new Date('Dec 15, 2023 0:00:00').getTime();
+    let countdownDate = new Date('Dec 15, 2025 0:00:00').getTime();
 
     const updateTimer = function() {
         let currDate = new Date().getTime(),
